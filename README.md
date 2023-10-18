@@ -6,7 +6,9 @@ Project for UI course
 https://www.figma.com/file/oAXLYgIrLiiHqWIO3P0XOz/project_UI?type=design&node-id=0%3A1&mode=design&t=9NoLcxE488u14AQl-1
 
 Результат в браузере:
-![image](https://github.com/ednastik/discoverart/assets/32436602/7a22d5e7-70ee-41e2-94f5-40920f28e162)
+
+![image](https://github.com/ednastik/discoverart/assets/32436602/cbfeb813-bc4d-45d8-a28b-2b117a324826)
+
 
 ![image](https://github.com/ednastik/discoverart/assets/32436602/3c944304-bb5b-44dc-8b33-a2ae0e291036)
 
