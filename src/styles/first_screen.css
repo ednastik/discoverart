@@ -1,0 +1,110 @@
+.main-first-screen {
+    background: var(--primary-grey);
+    width: 100%; 
+    height: 100%; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    display: inline-flex
+  }
+  
+  .main-first-screen__wrapper {
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+.main-first-screen__left-part {
+    flex-direction: column; 
+    justify-content: start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    padding: 150px 0px;
+    gap: 30px
+}
+
+.main-first-screen__right-part {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+    padding: 40px 0px;
+}
+
+.main-first-screen__h2 {
+    color: var(--primary-orange); 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word
+}
+
+.main-first-screen__h1 {
+    color: var(--primary-black); 
+    font-size: 86px; 
+    font-family: Trirong; 
+    font-weight: 500; 
+    line-height: 100px; 
+    word-wrap: break-word
+}
+
+.main-first-screen__text {
+    width: 304px; 
+    color: var(--primary-black); 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    line-height: 28px; 
+    word-wrap: break-word
+}
+
+.main-first-screen__buttons {
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 30px; 
+    display: inline-flex
+}
+
+.main-first-screen__images {
+    width: 612px; 
+    height: 682px; 
+    position: relative
+}
+
+.main-first-screen__img-left-one {
+    width: 305px; 
+    height: 324px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    border-radius: 10px
+}
+
+.main-first-screen__img-right-top {
+    width: 288px; 
+    height: 324px; 
+    left: 324px; 
+    top: 0px; 
+    position: absolute; 
+    border-radius: 10px
+}
+
+.main-first-screen__img-left-bottom {
+    width: 305px; 
+    height: 341px; 
+    left: 0px; 
+    top: 341px; 
+    position: absolute; 
+    border-radius: 10px
+}
+
+.main-first-screen__img-right-bottom {
+    width: 288px; 
+    height: 341px; 
+    left: 324px; 
+    top: 341px; 
+    position: absolute; 
+    border-radius: 10px
+}

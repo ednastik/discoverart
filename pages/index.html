@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Тег для корректного отображения интерфейса на безрамочных смартфонах -->
+    <!-- Подробнее: https://css-tricks.com/the-notch-and-css/ -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no, viewport-fit=cover">
+    
+    <!-- Подключаем шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Trirong:wght@500&display=swap" rel="stylesheet">
+    
+    <!-- Подключаем стили -->
+    <link rel="stylesheet" href="../src/styles/reset.css">   
+    <link rel="stylesheet" href="../src/styles/header.css">
+    <link rel="stylesheet" href="../src/styles/main.css">
+    <link rel="stylesheet" href="../src/styles/category.css">
+    <link rel="stylesheet" href="../src/styles/first_screen.css">
+    <link rel="stylesheet" href="../src/styles/footer.css">
+    <!-- Фавиконка и заголовок документа -->
+    <title>Discover Art</title>
+  </head>
+  <body>
+    <!-- Шапка -->
+    <header class="main-header">
+        <div class="main-header__wrapper">
+            <div class="main-header__left-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="247" height="1" viewBox="0 0 247 1" fill="none">
+                    <path d="M0 0H247" stroke="#6D6D6D"/>
+                </svg>
+                <div class="main-header__logo">masterpiece.</div>
+            </div>
+            <div class="main-header__right-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="890" height="1" viewBox="0 0 890 1" fill="none">
+                    <path d="M0 0H890" stroke="#6D6D6D"/>
+                  </svg>
+                <div class="main-header__navigation">
+                    <a class="link main-header__navigation-item main-header__navigation-item_selected" href="../pages/index.html">home</a>
+                    <a class="link main-header__navigation-item" href="/">artists</a>
+                    <a class="link main-header__navigation-item" href="../pages/gallery.html">gallery</a>
+                    <a class="link main-header__navigation-item" href="/">collections</a>
+                    <a class="link main-header__navigation-item" href="../pages/about.html">about</a>
+                    <div style="flex: 1 1 0; align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+                        <div style="width: 32px; height: 32px; position: relative"></div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_33_578)">
+                          <path d="M14.6776 12.9292C15.888 11.2776 16.4301 9.22985 16.1955 7.19568C15.9609 5.1615 14.9669 3.29091 13.4123 1.95815C11.8578 0.625392 9.85733 -0.0712549 7.81119 0.0075865C5.76505 0.0864279 3.82413 0.934943 2.37673 2.38337C0.929335 3.83181 0.0822089 5.77334 0.0048316 7.81953C-0.0725457 9.86573 0.625532 11.8657 1.95941 13.4193C3.29328 14.9729 5.16458 15.9656 7.19892 16.1987C9.23326 16.4319 11.2806 15.8883 12.9314 14.6767H12.9301C12.9676 14.7267 13.0076 14.7742 13.0526 14.8205L17.8651 19.633C18.0995 19.8675 18.4175 19.9994 18.7491 19.9995C19.0807 19.9996 19.3987 19.868 19.6333 19.6336C19.8678 19.3992 19.9997 19.0813 19.9998 18.7497C19.9999 18.4181 19.8683 18.1 19.6339 17.8655L14.8214 13.053C14.7767 13.0078 14.7286 12.966 14.6776 12.928V12.9292ZM15.0001 8.12424C15.0001 9.02708 14.8223 9.92108 14.4768 10.7552C14.1313 11.5893 13.6249 12.3472 12.9865 12.9856C12.3481 13.624 11.5902 14.1304 10.7561 14.4759C9.92198 14.8214 9.02798 14.9992 8.12515 14.9992C7.22231 14.9992 6.32831 14.8214 5.4942 14.4759C4.66008 14.1304 3.90219 13.624 3.26379 12.9856C2.62538 12.3472 2.11897 11.5893 1.77347 10.7552C1.42797 9.92108 1.25015 9.02708 1.25015 8.12424C1.25015 6.30088 1.97447 4.55219 3.26379 3.26288C4.5531 1.97357 6.30178 1.24924 8.12515 1.24924C9.94851 1.24924 11.6972 1.97357 12.9865 3.26288C14.2758 4.55219 15.0001 6.30088 15.0001 8.12424V8.12424Z" fill="#333333"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_33_578">
+                            <rect width="20" height="20" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <g clip-path="url(#clip0_33_596)">
+                          <path d="M9.99987 3.435L9.10362 2.51375C6.99987 0.35125 3.14237 1.0975 1.74987 3.81625C1.09612 5.095 0.948619 6.94125 2.14237 9.2975C3.29237 11.5663 5.68487 14.2837 9.99987 17.2437C14.3149 14.2837 16.7061 11.5663 17.8574 9.2975C19.0511 6.94 18.9049 5.095 18.2499 3.81625C16.8574 1.0975 12.9999 0.35 10.8961 2.5125L9.99987 3.435ZM9.99987 18.75C-9.16638 6.085 4.09862 -3.8 9.77987 1.42875C9.85487 1.4975 9.92862 1.56875 9.99987 1.6425C10.0704 1.56882 10.1438 1.49793 10.2199 1.43C15.8999 -3.8025 29.1661 6.08375 9.99987 18.75Z" fill="#333333"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_33_596">
+                            <rect width="20" height="20" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M10 10C10.9946 10 11.9484 9.60491 12.6517 8.90165C13.3549 8.19839 13.75 7.24456 13.75 6.25C13.75 5.25544 13.3549 4.30161 12.6517 3.59835C11.9484 2.89509 10.9946 2.5 10 2.5C9.00544 2.5 8.05161 2.89509 7.34835 3.59835C6.64509 4.30161 6.25 5.25544 6.25 6.25C6.25 7.24456 6.64509 8.19839 7.34835 8.90165C8.05161 9.60491 9.00544 10 10 10V10ZM12.5 6.25C12.5 6.91304 12.2366 7.54893 11.7678 8.01777C11.2989 8.48661 10.663 8.75 10 8.75C9.33696 8.75 8.70107 8.48661 8.23223 8.01777C7.76339 7.54893 7.5 6.91304 7.5 6.25C7.5 5.58696 7.76339 4.95107 8.23223 4.48223C8.70107 4.01339 9.33696 3.75 10 3.75C10.663 3.75 11.2989 4.01339 11.7678 4.48223C12.2366 4.95107 12.5 5.58696 12.5 6.25V6.25ZM17.5 16.25C17.5 17.5 16.25 17.5 16.25 17.5H3.75C3.75 17.5 2.5 17.5 2.5 16.25C2.5 15 3.75 11.25 10 11.25C16.25 11.25 17.5 15 17.5 16.25ZM16.25 16.245C16.2487 15.9375 16.0575 15.0125 15.21 14.165C14.395 13.35 12.8613 12.5 10 12.5C7.1375 12.5 5.605 13.35 4.79 14.165C3.9425 15.0125 3.7525 15.9375 3.75 16.245H16.25Z" fill="black"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" viewBox="0 0 35 20" fill="none">
+                        <g clip-path="url(#clip0_33_580)">
+                          <path d="M34 0.5H1C0.447715 0.5 0 0.947715 0 1.5V2.5C0 3.05228 0.447715 3.5 1 3.5H34C34.5523 3.5 35 3.05228 35 2.5V1.5C35 0.947715 34.5523 0.5 34 0.5Z" fill="#333333"/>
+                          <path d="M34 8.5H1C0.447715 8.5 0 8.94772 0 9.5V10.5C0 11.0523 0.447715 11.5 1 11.5H34C34.5523 11.5 35 11.0523 35 10.5V9.5C35 8.94772 34.5523 8.5 34 8.5Z" fill="#333333"/>
+                          <path d="M34 16.5H1C0.447715 16.5 0 16.9477 0 17.5V18.5C0 19.0523 0.447715 19.5 1 19.5H34C34.5523 19.5 35 19.0523 35 18.5V17.5C35 16.9477 34.5523 16.5 34 16.5Z" fill="#333333"/>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_33_580">
+                            <rect width="35" height="20" fill="white"/>
+                          </clipPath>
+                        </defs>
+                      </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Первый экран-->
+    <div class="main-first-screen">
+        <div class="main-first-screen__wrapper">
+            <div class="main-first-screen__left-part">
+                <div class="main-first-screen__h2">SERVICE FOR ART LOVERS</div>
+                <div class="main-first-screen__h1">Discover ART</div>
+                <div class="main-first-screen__text">Search impressionist paintings, artist biographies and more.</div>
+                <div class="main-first-screen__buttons">
+                    <button class="button">LOG IN</button>
+                    <div class="link_button">DISCOVER</div>
+                </div>
+            </div>
+            <div class="main-first-screen__right-part">
+                <div class="main-first-screen__images">
+                    <img class="main-first-screen__img-left-one" src="../assets/sunset.png" />
+                    <img class="main-first-screen__img-right-top" src="../assets/flowers.png" />
+                    <img class="main-first-screen__img-left-bottom" src="../assets/sea.png" />
+                    <img class="main-first-screen__img-right-bottom" src="../assets/garden.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="devider">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1360" height="2" viewBox="0 0 1360 2" fill="none">
+            <path d="M0 1.00012L1360 1" stroke="#6D6D6D"/>
+          </svg>
+    </div>
+
+    <!-- Категории -->
+    <div class="main-category">
+        <div class="main-category__wrapper">
+            <div class="main-category__category-one">
+                <img class="main-category__image-category" src="../assets/history.png">                
+                <div class="main-category__category-text">History</div>
+            </div>
+            <div class="main-category__category-one">
+                <img class="main-category__image-category" src="../assets/artists.png">                
+                <div class="main-category__category-text">Artists</div>
+            </div>
+            <div class="main-category__category-one">
+                <img class="main-category__image-category" src="../assets/gallery.png">                
+                <div class="main-category__category-text">Gallery</div>
+            </div>
+            <div class="main-category__category-one">
+                <img class="main-category__image-category" src="../assets/collection.png">                
+                <div class="main-category__category-text">Collections</div>
+            </div>
+            <div class="main-category__category-one">
+                <img class="main-category__image-category" src="../assets/museums.png">                
+                <div class="main-category__category-text">Museums</div>
+            </div>
+        </div>
+    </div>
+     
+    <!-- Подвал -->
+    <div class="main-footer">
+        <div class="main-footer__wrapper">
+            
+            <div class="main-footer__bg">
+                <div class="main-footer__content">
+                    <div class="main-footer__left-part">
+                        <div class="main-footer__text-h">Follow us</div>
+                        <div class="main-footer__icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <g clip-path="url(#clip0_33_876)">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M23.9461 1.02901C24.0007 0.892718 24.0141 0.743408 23.9846 0.599594C23.9551 0.455779 23.884 0.323785 23.7802 0.219975C23.6764 0.116166 23.5444 0.0451054 23.4006 0.0156042C23.2568 -0.013897 23.1074 -0.000541715 22.9711 0.0540143L22.8286 0.111014L1.15065 8.78101L1.14915 8.78251L0.471148 9.05251C0.342733 9.10374 0.230976 9.18946 0.148222 9.30021C0.0654668 9.41096 0.0149351 9.54243 0.00220827 9.6801C-0.0105185 9.81776 0.0150548 9.95627 0.0761036 10.0803C0.137152 10.2044 0.2313 10.3091 0.348148 10.383L0.963148 10.773L0.964648 10.776L7.80915 15.1305L8.45715 15.543L8.86965 16.191L13.2241 23.0355L13.2271 23.0385L13.6171 23.6535C13.6913 23.7699 13.7961 23.8636 13.92 23.9243C14.044 23.9849 14.1823 24.0102 14.3197 23.9973C14.4571 23.9845 14.5883 23.9339 14.6988 23.8513C14.8093 23.7687 14.8949 23.6572 14.9461 23.529L15.2176 22.8495L23.8891 1.17001L23.9461 1.02751V1.02901ZM21.1966 3.86401L21.9031 2.09701L20.1361 2.80351L8.89515 14.0445L9.40215 14.367C9.49519 14.4261 9.57406 14.505 9.63315 14.598L9.95565 15.105L21.1966 3.86401Z" fill="#F9F9F9"/>
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_33_876">
+                                <rect width="24" height="24" fill="white"/>
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M7.539 22.5001C16.596 22.5001 21.5505 14.9956 21.5505 8.49912C21.5505 8.28912 21.5505 8.07612 21.5415 7.86612C22.5061 7.16785 23.3386 6.30335 24 5.31312C23.099 5.7104 22.1441 5.97223 21.1665 6.09012C22.1963 5.47458 22.9676 4.50608 23.337 3.36462C22.3695 3.93781 21.3105 4.34018 20.2065 4.55412C19.4643 3.76366 18.4821 3.24 17.4121 3.06426C16.3421 2.88852 15.2441 3.07051 14.288 3.58203C13.3319 4.09355 12.5712 4.90607 12.1237 5.89371C11.6761 6.88136 11.5668 7.98902 11.8125 9.04513C9.85461 8.94695 7.93922 8.43833 6.19056 7.55224C4.4419 6.66615 2.89903 5.42239 1.662 3.90162C1.03401 4.98625 0.842361 6.26923 1.12597 7.49002C1.40958 8.71082 2.14718 9.77792 3.189 10.4746C2.40831 10.4481 1.64478 10.2385 0.96 9.86262V9.93012C0.961346 11.0663 1.35496 12.1673 2.07431 13.0468C2.79366 13.9263 3.79462 14.5304 4.908 14.7571C4.48539 14.8735 4.04884 14.9316 3.6105 14.9296C3.30148 14.9306 2.99307 14.9019 2.6895 14.8441C3.00418 15.8222 3.61691 16.6774 4.44187 17.2898C5.26683 17.9023 6.2627 18.2414 7.29 18.2596C5.54483 19.6303 3.3891 20.3737 1.17 20.3701C0.778981 20.3718 0.388235 20.3492 0 20.3026C2.25227 21.7385 4.86795 22.5009 7.539 22.5001Z" fill="#F9F9F9"/>
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M23.988 6.3061C23.8815 8.6401 22.251 11.8366 19.095 15.8956C15.8325 20.1391 13.071 22.2601 10.812 22.2601C9.4125 22.2601 8.229 20.9686 7.2615 18.3856L5.325 11.2846C4.605 8.7001 3.834 7.4101 3.0105 7.4101C2.8335 7.4101 2.205 7.7896 1.1295 8.5411L0 7.0861C1.17475 6.05433 2.34178 5.0138 3.501 3.9646C5.082 2.5996 6.2685 1.8826 7.0605 1.8091C8.925 1.6246 10.0755 2.9011 10.5075 5.6386C10.9725 8.5906 11.2965 10.4236 11.4765 11.1376C12.0165 13.5841 12.6105 14.8066 13.2555 14.8051C13.7565 14.8051 14.5095 14.0101 15.5175 12.4246C16.524 10.8376 17.0625 9.6301 17.133 8.8021C17.277 7.4326 16.7385 6.7471 15.5175 6.7471C14.9046 6.75609 14.2999 6.88927 13.74 7.1386C14.9235 3.2791 17.1765 1.4011 20.502 1.5046C22.968 1.5796 24.1305 3.1801 23.988 6.3046V6.3061Z" fill="#F9F9F9"/>
+                          </svg>
+                        </div>
+                    </div>
+                    <div class="main-footer__copyright">@ 2023. Discover Art.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+    
+      
+  </body>
+</html>
+
+
+

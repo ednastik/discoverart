@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+  }
+
+  :root {
+    /* Типографика */
+    --font-family-inter: 'Inter';
+    --font-family-trirong: 'Trirong';
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 500;
+  
+    
+  
+    /* Цвета */
+    --primary-grey: #F9F9F9;
+    --primary-orange: #CA4E3E;
+    --primary-black: #333333;
+    --primary-dark-grey: #6D6D6D;
+  }
+
+  body {
+    margin: 0;
+    font-family: var(--font-family-inter);
+    color: var(--primary-black);
+    font-weight: var(--font-weight-normal);
+    background-color: var(--primary-grey);
+  }
+
+  .button {
+    padding-left: 60px; 
+    padding-right: 60px; 
+    padding-top: 14px; 
+    padding-bottom: 14px; 
+    background: var(--primary-orange); 
+    border-radius: 10px; 
+    overflow: hidden; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    display: inline-flex;
+    color: var(--primary-grey); 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    word-wrap: break-word;
+    border: 0
+  }
+
+  .link_button {
+    color: var(--primary-black); 
+    font-size: 20px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    text-decoration: underline; 
+    word-wrap: break-word
+  }
+
+  .devider {
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
