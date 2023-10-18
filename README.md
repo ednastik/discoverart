@@ -9,13 +9,14 @@ https://www.figma.com/file/oAXLYgIrLiiHqWIO3P0XOz/project_UI?type=design&node-id
 
 ![image](https://github.com/ednastik/discoverart/assets/32436602/cbfeb813-bc4d-45d8-a28b-2b117a324826)
 
+![image](https://github.com/ednastik/discoverart/assets/32436602/291bec51-5e0f-4cfe-b49c-7a2db615ce05)
 
-![image](https://github.com/ednastik/discoverart/assets/32436602/3c944304-bb5b-44dc-8b33-a2ae0e291036)
+![image](https://github.com/ednastik/discoverart/assets/32436602/a0337bf3-bef2-4168-afb8-fbfe7e1b9da6)
 
-![image](https://github.com/ednastik/discoverart/assets/32436602/5c2de529-105b-4985-8ba7-a3d39f918431)
 
 В меню работают переходы между двумя страницами:
-![image](https://github.com/ednastik/discoverart/assets/32436602/2d771bfc-4393-4ba5-8dc7-8a6d578e5078)
+![image](https://github.com/ednastik/discoverart/assets/32436602/20eaf9ab-55ac-402a-a4e9-4320a04908af)
+
 
 
 
